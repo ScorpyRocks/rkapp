@@ -1,1 +1,22 @@
 <p>search-component works!</p>
+<div>
+    <label for="country">Search country: </label>
+    <input type="text" name="country">
+</div>
+<hr>
+<div>
+    
+<p>Read Local JSON file student data using typescript HttpClient</p>
+<table id="country">
+	<tr>
+		<th>Country</th>
+		<th>Capital</th>
+	</tr>
+	<tr *ngFor="let element of data">
+		<td>{{element.country}}</td>
+		<td>{{element.city}}</td>
+	</tr>
+</table>
+
+</div>
+
